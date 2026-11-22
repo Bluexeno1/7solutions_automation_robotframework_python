@@ -1,0 +1,6 @@
+# NOTE: placeholder locators - verify against the live payment page (order summary block).
+payment:
+  order_summary: "css:[data-testid='order-summary'], .order-summary, .summary"
+  summary_amount: "css:[data-testid='summary-amount'], .order-summary .amount, .summary-amount"
+  summary_fee: "css:[data-testid='summary-fee'], .order-summary .fee, .summary-fee"
+  summary_total: "css:[data-testid='summary-total'], .order-summary .total, .summary-total"

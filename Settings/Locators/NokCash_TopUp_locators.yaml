@@ -1,0 +1,7 @@
+# NOTE: placeholder locators - verify against the live NokCash top-up page.
+nokcash_topup:
+  page_marker: "xpath://*[contains(.,'นกแคช') or contains(.,'NokCash')][self::h1 or self::h2 or self::h3]"
+  amount_input: "css:input[type='number'], input[name*='amount' i], input[placeholder*='จำนวน']"
+  preset_amount_buttons: "css:[data-testid='preset-amount'], .preset-amount, button[class*='amount']"
+  continue_button: "xpath://button[contains(.,'ดำเนินการ') or contains(.,'ต่อไป') or contains(.,'ชำระเงิน') or contains(.,'ยืนยัน') or contains(.,'เติมเงิน')]"
+  error_message: "css:.error, .invalid-feedback, .text-danger, [role='alert']"

@@ -1,0 +1,5 @@
+# NOTE: placeholder locators written without access to the live DOM. Verify each one in DevTools.
+# Prefer a stable data-testid / id once the dev team can add one.
+homepage:
+  nokcash_banner: "xpath://a[contains(@href,'nok') and contains(@href,'cash')] | //img[contains(@alt,'NokCash') or contains(@alt,'นกแคช')]/ancestor::a[1]"
+  page_body: "css:body"

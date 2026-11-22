@@ -1,0 +1,9 @@
+# Test data. Limits and fee are ASSUMED (same as the Excel 'Assumptions' sheet) - update after checking the live page.
+amount_rules:
+  min_amount: 100
+  max_amount: 50000
+  fee_thb: 0
+
+amounts:
+  preset_index: 1          # 0-based index of the preset button used by TC4
+  custom_amount: 1250      # used by TC5

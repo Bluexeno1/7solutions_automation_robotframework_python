@@ -1,0 +1,14 @@
+# Environment configuration. Any value can be overridden with an env var, see Python_handler/config_handler.py
+base_url: "https://xn--m3ca1athe9asc7b2b6iqe.com/"   # punycode form of ลอตเตอรี่พลัส.com
+browser: chrome
+headless: true
+window_width: 1366
+window_height: 900
+implicit_wait: 0
+timeout: 15s
+short_timeout: 4s
+
+# The site uses LINE login. Automating LINE login is not supported.
+# If the top-up page requires a member session, set login_required: true and
+# export NOKCASH_SESSION_COOKIE="<cookie_name>=<cookie_value>" copied from a logged-in browser.
+login_required: false
